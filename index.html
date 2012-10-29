@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+  <title>Simply DO!</title>
+  <meta name="author" content="Yuriy Husnay" />
+
+  <link rel="stylesheet" href="style/style.css" />
+
+  <script type="text/javascript" src="lib/cordova.js"></script>
+  <script type="text/javascript" src="lib/xui.js"></script>
+
+  <script type="text/javascript" src="js/extend.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+  	
+<!-- <div id="wrapper"> -->
+	<div id="start-screen">
+		<div id="start-logo"><h1>Simply</h1><h2>DO!</h2></div>
+		<!-- <div id="start-loading">Tap to continue</div> -->		
+	</div>
+	
+	<div id="screen">
+	
+		<section id="action-bar">
+			<div id="heading">Simply DO!</div>
+			<div id="menu-button">
+				<div id="menu-wrapper">
+					<div class="menu-item" id="menu-about">About</div>
+					<!-- <div class="menu-item" id="menu-exit">Exit</div> -->
+				</div>
+			</div>
+		</section>
+	
+		<section id="page-section">
+	
+			<div id="page_node-list">
+				<div id="button_new-node">
+					<button>Add Task</button>
+				</div>
+				<div id="wrapper_node-list">
+					
+				</div>
+			</div>
+	
+			<div id="page_node-save">
+				<div id="input_node-content">
+					<textarea id="input" rows="8"></textarea>
+				</div>
+				<div id="button_save-node">
+					<button>Save</button>
+				</div>
+			</div>
+	
+			<div id="page_node-actions">
+				<div id="wrapper_node-content">
+					
+				</div>
+				<div id="buttons_node-actions">
+					<button id="modify-button">Modify</button>
+					<!-- <button id="done-button">Done</button> -->
+					<button id="delete-button">Delete</button>
+				</div>
+			</div>
+	
+			<div id="page_about">
+				<div id="about_wrapper">
+					<h1>About</h1>
+					<p>
+						&copy; 2012 Yuriy Husnay<br>
+						<a href="mailto:husnaj23@gmail.com?Subject=Simply DO!">husnaj23@gmail.com</a>
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+</body>
+</html>
+		
